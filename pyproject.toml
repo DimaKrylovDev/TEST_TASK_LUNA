@@ -1,0 +1,19 @@
+[project]
+name = "test-luna-task"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "DimaKrylovDev",email = "metiq2007@yandex.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic-settings (>=2.11.0,<3.0.0)",
+    "pydantic (>=2.12.3,<3.0.0)",
+    "sqlalchemy[asyncio] (>=2.0.44,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
